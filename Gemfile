@@ -15,6 +15,7 @@ group :test do
   gem 'selenium-webdriver', '~> 2.34'
 end
 
-gem 'spree', github: 'spree/spree', branch: '2-1-stable'
+
+gem 'spree', :github => "ivan-khomich/spree", :branch => "master"
 
 gemspec
